@@ -1,0 +1,89 @@
+body {
+  background-repeat: no-repeat;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  background-image: url('city.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.profile {
+ background-color: rgba(255, 255, 255, 0.5);
+ max-width: 1000px;
+ background-size: cover;
+ background-position: center;
+ font-family: "Sofia", sans-serif;
+ 
+ margin: 50px auto; 
+ border: 0px solid #ccc; 
+ border-radius: 36px; 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px; 
+}
+
+.profile img {
+  max-width: 250px;
+  border-radius: 10%;
+  margin-bottom: 20px; 
+}
+
+.profile-details {
+  display: flex;
+  align-items: center; 
+}
+
+.introduction {
+  margin-left: 30px; 
+}
+
+.introduction h1 {
+  font-size: 50px;
+  margin: 0;
+  color: black;
+}
+
+.introduction p {
+  margin-top: 5px;
+  color: black;
+  transition: color 0.3s;
+  font-size: 40px;
+}
+
+.button:hover {
+  background-color: grey; 
+}
+
+.button {
+  display: inline-block; 
+  margin: 10 10px; 
+  padding: 15px 30px; 
+  font-size: 20px; 
+  text-decoration: none; 
+  background-color: white; 
+  color: black;
+  border-radius: 12px; 
+  margin-top: 15px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.profile-details, .buttons {
+  animation: fadeIn 2s ease-out;
+}
+
+.logo {
+  width: 50px;
+ 
+}
+.contact-icons img {
+  transition: transform 0.3s ease;
+  margin-right: 10px;
+}
+
+.contact-icons img:hover {
+  transform: scale(1.2);
+}

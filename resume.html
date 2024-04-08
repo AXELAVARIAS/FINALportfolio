@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Resume</title>
+    <style>
+      @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+        body {
+          background-repeat: no-repeat;
+          font-family: 'Courier New', Courier, monospace;
+          margin: 0;
+          background-image: url('city.png');
+          background-attachment: fixed;
+          background-size: cover;
+          animation: fadeIn 1s ease-out; 
+        }
+        .container {
+            max-width: 1800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        section {
+            flex: 1;
+        }
+        header {
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            margin-bottom: 10px;
+            max-width: 250px;
+            border-radius: 10%;
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .goback {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.goback a {
+  text-decoration: none;
+  color: black;
+  background-color: white; 
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.goback a:hover {
+  background-color: grey; 
+  border-color: grey;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Alex2.jpeg" alt="Alexander">
+            <h1>Alexander Lavarias</h1>
+            <h3>Information Technology Student</h3>
+        </header>
+        
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <p>
+              I'm a second-year student of the Bachelor of Science in Information Technology, majoring in Network and Security.
+              I am a computer enthusiast who loves and enjoy computer equipments and peripherals. 
+              I'm also a computer technician that's why I love building or assembling computers components. 
+
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: afl6295@students.uc-bcf.edu.ph</li>
+                <li>Phone: (+63) 9274221685</li>
+                <li>Address: 46 Carantes Street, Middle Quezon Hill, Baguio City, Benguet, 2600</li>
+            </ul>
+        </section>
+      </section>
+      <section id="experience">
+          <h2>Experience</h2>
+          <ul>
+              <li>MACULAV Tech - Computer Technician</li>
+              <li>Tranco's Aqua - Aquarium Assembler</li>
+              <li>Part-time Job at Professional Regulation Commission - Supply Officer</li>
+          </ul>
+      </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>University of the Cordilleras - Bachelor of Science in Information Technology - Network Security (2022-2025)</li>
+                <li>Baguio College of Technology (2020 - 2022)</li>
+            </ul>
+        </section>
+        
+        <section id="interests">
+            <h2>Interests</h2>
+            <li>Routing and Switching</li>
+            <li>Website Designing</li>
+            <li>Computer Tech Review</li>
+            <li>Playing Computer Games</li>
+            <li>Cooking Filipino Food</li>
+        </section>
+        
+    </div>
+    <div class="goback">
+      <a href="index.html">Go Back</a>
+    </div>
+</body>
+</html>
